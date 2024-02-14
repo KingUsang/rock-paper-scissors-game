@@ -2,6 +2,8 @@
 
 This is a simple implementation of the classic Rock Paper Scissors game in JavaScript.
 
+## [Live Preview](https://kingusang.github.io/rock-paper-scissors-game/)
+
 ## How to Play
 
 1. Open the `index.html` file in your web browser to start the game.
