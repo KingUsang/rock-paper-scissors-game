@@ -1,0 +1,76 @@
+body {
+  font-size: 16px;
+  color: white;
+}
+
+#game-container{
+  width: min(90%,500px);
+  margin: 0 auto;
+  background: #1f2937;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  padding: 2px;
+  font-size: 1rem;
+}
+
+#restart-game-btn {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  color: 1f2937;
+}
+
+#stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+
+#stats > div {
+  display: flex;
+  flex-flow: column;
+  align-items: center
+}
+
+#controls > button {
+  margin: 1.5rem 0.5rem;
+  width: 80px;
+}
+
+#game-result {
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#game-result p {
+  margin-top: 0
+}
+
+#winnerText{
+  font-size: 1.5rem;
+  color: #f0f0f0;
+  padding-top: 0.5em;
+}
+
+#instruction {
+  padding: 0 1.5rem;
+  text-align: center;
+}
+#instruction > button {
+  display: block;
+  margin: 0.5rem auto -0.5rem;
+}

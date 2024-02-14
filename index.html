@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Page title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div id="game-container">
+    <button id="restart-game-btn">Restart Game</button>
+    <div id="stats">
+      <div>
+        <p>
+          Computer Score
+        </p>
+        <span id="computer-score">0</span>
+      </div>
+      <div>
+        <p>
+          Player Score
+        </p>
+        <span id="player-score">0</span>
+      </div>
+    </div>
+    
+    <div id='controls'>
+      <button id="Rock">Rock</button>
+      <button id="Paper">Paper</button>
+      <button id="Scissors">Scissors</button>
+    </div>
+    <div id="instruction">
+      <em>Make a move...</em>
+    </div>
+    <div id="game-result">
+      <p id="player-choice"></p>
+      <p id="computer-choice"></p>
+      <p><strong id="winnerText"></strong></p>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+
+</html>
